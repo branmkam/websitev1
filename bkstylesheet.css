@@ -1,0 +1,165 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align:center;
+/*  background-color: #0066ff;*/
+}
+
+li.navlist {
+  display: inline;
+/*  background-color: #0066ff;*/
+  float: left;
+  color: #FF0000;
+  font-family: "Arial";
+  width: 25%;
+  text-align: center;
+}
+
+li.inl {
+  display: inline-block;
+  float: center;
+  padding: 15px;
+}
+
+img.pl {
+  height: 150px;
+  margin-top: 20px;
+  float:center;
+}
+
+#mainhome
+{
+  background-image: url("worldmaptest.jpg");
+  background-size: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+div.main {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+#githubref
+{
+  font-family: garamond;
+  font-weight: bold;
+  font-size:24px;
+  text-align: center;
+  margin: auto;
+  }
+
+body
+{
+  background-color: #0077ff22;
+  margin: 0;
+}
+
+
+#welcome
+{
+  font-size: 48px;
+  font-family: "tw cen mt";
+}
+#findme
+{
+  text-align: center;
+  margin: auto;
+}
+
+a.nav {
+display: block;
+padding: 8px;
+background-color: #99badd;
+font-family: Arial;
+font-size:24px;
+text-decoration: none;
+color: #000000;
+}
+
+a.nav:hover {
+  background-color: #0044ff;
+  color: #99badd;
+}
+
+a {
+  font-family: "Garamond";
+  text-decoration: none;
+  color: #0012ee;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  font-family: "Garamond";
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p.p50
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h4 {
+  font-family: "Comic Sans MS";
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Century Gothic";
+  text-align: center;
+}
+
+#myname {
+  font-size: 60px;
+  padding-top: 20px;
+  margin: 5px;
+  padding-bottom: 0px;
+  color: #99badd;
+  -webkit-text-stroke: 0.5px white;
+}
+
+#subtext {
+  font-size: 24px;
+  color: red;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Trebuchet MS";
+  -webkit-text-stroke: 0.2px white;
+}
+
+#start
+{
+  font-size: 36px;
+  -webkit-text-stroke: 0.3px #99badd;
+  font-style: bold;
+}
+
+div.header {
+  background-image: url("testheaderbg.jpg");
+}
+
+div.footer
+{
+  background-color: black;
+  color: #99badd;
+  margin-top:: 0;
+  padding-top: 10;
+  padding-bottom: 10;
+}

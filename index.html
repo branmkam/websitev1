@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Brandon Kaminski - Home</title>
+    <!-- CSS HERE -->
+    <link rel="stylesheet" type="text/css" href="bkstylesheet.css">
+    <script type = "text/javascript">
+      var ts = document.getElementById('timestamp');
+      var d = new Date();
+      var start = new Date(2019, 9, 17, 0, 0, 0, 0);
+      var finald = d - start;
+      ts.innerHTML = "This site has been running for " + finald + "days";
+    </script>
+  </head>
+  <body>
+    <div class = "header">
+    <h1 id = "myname">Brandon Kaminski</h1>
+    <h4 id = "subtext">Computer Scientist, Linguist, and Musician.</h4>
+    <ul id = "navbar">
+      <li class = "navlist"><a class = "nav" href = "index.html">Home</a></li>
+      <li class = "navlist"><a class = "nav" href = "about.html">About Me</a></li>
+      <li class = "navlist"><a class = "nav" href = "projects.html">My Projects</a></li>
+      <li class = "navlist"><a class = "nav" href = "contact.html">Contact Me!</a></li>
+    </ul>
+    </div>
+    <div id = "mainhome" class = "main">
+      <h1 id = "welcome">Welcome!</h1>
+    <p id = "start">Freshman at UNC-Chapel Hill.<br/>Programmer.</br>Language Enthusiast.<br/>
+      Pianist.<br/>Poet.<br/>And More!</p>
+    <p id = "timestamp"></p>
+    </div>
+    <div class = "footer">
+    <p id = "lastupdate">Last Updated: 9/23/2019 <br/>
+      This website designed and coded by Brandon Kaminski since 9/17/2019</p>
+    </div>
+  </body>
+</html>
