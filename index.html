@@ -4,13 +4,6 @@
     <!-- CSS HERE -->
     <link rel="stylesheet" type="text/css" href="bkstylesheet.css">
 	<link rel="icon" type="image/jpg" sizes="32x32" href="images/favicon.jpg">
-    <script type = "text/javascript">
-      var ts = document.getElementById('timestamp');
-      var d = new Date();
-      var start = new Date(2019, 9, 17, 0, 0, 0, 0);
-      var finald = d - start;
-      ts.innerHTML = "This site has been running for " + finald + "days";
-    </script>
   </head>
   <body>
     <div class = "header">
@@ -27,11 +20,22 @@
       <h1 id = "welcome">Welcome!</h1>
     <p id = "start">Freshman at UNC-Chapel Hill.<br/>Programmer.</br>Language Enthusiast.<br/>
       Pianist.<br/>Poet.<br/>And More!</p>
-    <p id = "timestamp"></p>
+      <script>
+      /*
+        let d = new Date();
+        let start = new Date(2019, 9, 17, 0, 0, 0, 0);
+        let finald = d - start;
+        document.getElementById("timestamp").innerHTML = "<p>This site has been running for " + finald + "days</p>";
+        */
+      </script>
+
     </div>
     <div class = "footer">
-    <p id = "lastupdate">Last Updated: 9/23/2019 <br/>
+    <p id = "lastupdate">Last Updated: 3/24/2020<br/>
       This website designed and coded by Brandon Kaminski since 9/17/2019</p>
+    <p id = "timestamp"></p>
     </div>
+     <script src = 'C:/Users/branmkam/Documents/MyWebsite/bkjs.js'></script>
+     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   </body>
 </html>
